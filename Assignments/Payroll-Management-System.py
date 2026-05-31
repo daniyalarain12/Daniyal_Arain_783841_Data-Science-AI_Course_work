@@ -4,7 +4,7 @@ class Employee:
     def __init__(self, id:str, name:str):
         self.id = id
         self.name = name
-    
+        
     def get_id(self):
         return self.id
     def get_name(self):
